@@ -70,7 +70,7 @@ function Footer() {
             </Link>
             
           </div>
-          <small className='website-rights'>VCICM © 2023</small> <img src="/images/img-11.png"/>
+          <small className='website-rights'>VCICM © 2023</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
