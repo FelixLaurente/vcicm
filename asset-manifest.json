@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vcicm/static/css/main.67d2271b.css",
+    "main.js": "/vcicm/static/js/main.d97e87a9.js",
+    "index.html": "/vcicm/index.html",
+    "main.67d2271b.css.map": "/vcicm/static/css/main.67d2271b.css.map",
+    "main.d97e87a9.js.map": "/vcicm/static/js/main.d97e87a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67d2271b.css",
+    "static/js/main.d97e87a9.js"
+  ]
+}
