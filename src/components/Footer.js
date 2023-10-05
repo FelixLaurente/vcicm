@@ -70,7 +70,7 @@ function Footer() {
             </Link>
             
           </div>
-          <small className='website-rights'>VCICM © 2023</small> <img src="/vcicm/images/img-11.png"/>
+          <small className='website-rights'>VCICM © 2023</small> <img src="/images/img-11.png"/>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
@@ -78,7 +78,7 @@ function Footer() {
               target='_blank'
               aria-label='Facebook'
             >
-              <i className='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' /> 
             </Link>
             <Link
               className='social-icon-link instagram'
