@@ -66,8 +66,9 @@ function Footer() {
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               VCICM
-              <Avatar className=""alt="Remy Sharp" src="/vcicm/images/img-11.png"   sx={{ width: 50, height: 50 }} /> 
+              <Avatar className=""alt="Remy Sharp"   sx={{ width: 50, height: 50 }} /> 
             </Link>
+            <img src="/vcicm/images/img-11.png"/>
           </div>
           <small className='website-rights'>VCICM © 2023</small>
           <div className='social-icons'>
