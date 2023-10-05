@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Avatar } from '@mui/material';
 import './Navbar.css';
 
-function Navbar() {
+function NavBar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -80,5 +80,5 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
 //<Avatar alt="Remy Sharp" src="./images/vc.png" />

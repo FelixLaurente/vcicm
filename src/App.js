@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
@@ -13,13 +13,12 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar/>
+      <NavBar/>
           <Routes path='/'>
             <Route path='/' exact element={<Home/>}/>
             <Route path='/youth' exact element={<Youth/>}/>
             <Route path='/churches' exact element={<Churches/>}/>
-            <Route path='/mandaluyong' exact element={<HeroMandaluyong/>}/>
-        
+            <Route path='/mandaluyong' exact element={<HeroMandaluyong/>}/>        
           </Routes>
     </BrowserRouter>
           
