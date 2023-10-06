@@ -6,7 +6,7 @@ import './HeroYouth.css';
 function HeroYouth() {
   return (
     <div className='hero-container'>
-      <video src='/vcicm/videos/video-4.mp4' autoPlay loop muted />                                                        
+      <video src='/videos/video-4.mp4' autoPlay loop muted />                                                        
     </div>
   );
 }
