@@ -33,7 +33,7 @@ function NavBar() {
           <div >
             <h2 className='vcname'>VCICM</h2>
           </div>          
-            <Avatar className="vclogo"alt="Remy Sharp" src="./images/img-11.png"   sx={{ width: 50, height: 50 }} /> 
+            <Avatar className="vclogo"alt="Remy Sharp" src="/vcicm/images/img-11.png"   sx={{ width: 50, height: 50 }} /> 
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
