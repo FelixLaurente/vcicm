@@ -31,9 +31,9 @@ function NavBar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
           <div >
-            <h2 className='vcname'>VCICM</h2>
+            <h2 className='navlogo'>VCICM</h2>
           </div>          
-            <Avatar className="vclogo"alt="Remy Sharp" src="/vcicm/images/img-11.png"   sx={{ width: 50, height: 50 }} /> 
+            <Avatar className="navlogo"alt="Remy Sharp" src="/vcicm/images/img-11.png"   sx={{ width: 50, height: 50 }} /> 
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -64,16 +64,15 @@ function NavBar() {
             </li>
 
             <li>
-              <Link
+            <Link
                 to='/sign-up'
-                className='signup'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Sign Up
               </Link>
-            </li>
+            </li>          
           </ul>
-          
         </div>
       </nav>
     </>
